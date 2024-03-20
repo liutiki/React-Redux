@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App{
+  display:flex;
+  justify-content: space-around;
+}
+
+body{
+  background-color: #161616;
+}
+
+.block{
+  padding:20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+img{
+  width:500px;
+}
+
+.cartIcon{
+  width:70px;
+}
+
+.categoryButton:hover {
+
+  background-color: #fdeb6b;;
+
+}
+
+.categoryButtonSelected:hover{
+
+  background-color: green;
+
+}
+
+.categoryButton{
+  cursor:pointer;
+  padding:5px;
+  margin:5px;
+}
+
+.busket{
+  width:30px;
+}
